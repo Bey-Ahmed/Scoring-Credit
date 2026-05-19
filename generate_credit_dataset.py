@@ -259,7 +259,7 @@ print(df.groupby("Profil_Latent")["Defaut_24mois"].agg(["mean", "count"]))
 # 4. EXPORT EXCEL MULTI-FEUILLES
 # ---------------------------------------------------------------------------
 
-output_path = "/mnt/user-data/outputs/scoring_credit_dataset.xlsx"
+output_path = "/Users/the.light.artisan/Coding/ETS/E26/ENM860/Scoring-Credit/scoring_credit_dataset.xlsx"
 
 # Feuille 1: les données
 # Feuille 2: dictionnaire de variables
